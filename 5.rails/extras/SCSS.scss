@@ -1,0 +1,31 @@
+Le Wagon Custom Setup
+Bootstrap, (JS Dependency: jQuery & Popper.js)
+Font Awesome
+Simple Form
+Autoprefixer
+Le Wagon’s Stylesheets
+
+
+
+// Defining a variable
+$gray: #F4F4F4;
+$spacer: 8px;
+
+// nesting
+.banner {
+  background: red;
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+
+// chaining
+a {
+  color: grey;
+
+  &:hover {
+    color: black;
+  }
+}

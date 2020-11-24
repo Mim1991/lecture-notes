@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row"></div>
+    <div class="col-sm-6"></div>
+  <div class="row"></div>
+    <div class="col-sm-6"></div>
+  <div class="row"></div>
+    <div class="col-sm-6"></div>
+</div>
+
+// Below splits screen in 2 columns, 1 row
+<div class="container">
+  <div class="row">
+
+    <div class="col-6">
+    </div>
+
+    <div class="col-6">
+    </div>
+
+  </div>
+</div>
+
+// Full screen on mobile and middle and half screen on large device
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-6">
+      <!-- This div is centered and takes 6 columns -->
+    </div>
+  </div>
+</div>

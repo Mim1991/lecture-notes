@@ -1,0 +1,11 @@
+DOMContentLoaded  # document
+blur              # input / textarea
+click             # any visible element
+change            # select
+focus             # any visible element
+keyup             # window / any focused element
+mouseover         # any visible element
+resize            # window
+scroll            # window / any scrollable element
+submit            # form
+touchstart        # for mobile devices

@@ -1,0 +1,42 @@
+body {
+  color: rgb(10, 10, 10);
+}
+/*value between 0 and 255*/
+
+/*Font style*/
+body {
+  font-family: Times, serif;
+}
+
+/*Centering text*/
+p {
+  text-align: center;
+  text-align: justify;
+}
+
+/*Font Awesome*/
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+/*Right shadow, down shadow, blur, colour*/
+box {
+  box-shadow: 2px 2px 3px black;
+}
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+
+/*Units*/
+/* Absolute */
+p {
+  width: 50px;
+/* Relative to parent */
+  width: 50%;
+/* Relative to font size */
+  width: 2em;
+}
+
+/*.component-shape is the naming convention */
+
+/*Grouping: all will have that prop*/
+h1, h2, h3 {
+  font-weight: bold;
+}
+
